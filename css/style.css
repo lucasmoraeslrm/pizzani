@@ -1,0 +1,392 @@
+* {
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: montserrat;
+}
+
+button{
+	margin-left: 40px;
+	background-color: #ffd93b;
+	border: none;
+	color: 5d4e4d;
+	font-size: 20px;
+	padding: 10px 25px;
+	margin-top: 10px;
+	cursor: pointer;
+}
+
+button:hover{
+	transform: scale(1.1);
+}
+
+header{
+	background-image: linear-gradient(rgba(255 255, 255, 1), rgba(0, 0, 0, 0.1)), url("../img/bg-header.png"); /* The image used */
+	background-color: #000; /* Used if the image is unavailable */
+	min-height: 500px; /* You must set a specified height */
+	background-position: center; /* Center the image */
+	background-repeat: no-repeat; /* Do not repeat the image */
+	background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+nav {
+	padding: 20px 0px;
+	width: 100%;
+}
+label.logo {
+	color: white;
+	font-size: 35px;
+	line-height: 80px;
+	padding: 0 0px;
+	margin-left: 40px;
+	font-weight: bold;
+}
+nav ul {
+	float: right;
+	margin-right: 40px;
+	margin-top: 15px;
+}
+nav ul li {
+	display: inline-block;
+	line-height: 50px;
+	margin: 0 5px;
+}
+nav ul li a {
+	color: black;
+	font-size: 15px;
+	padding: 7px 7px;
+	border-radius: 3px;
+	text-transform: uppercase;
+}
+a.active, a:hover {
+	color: #1d075f;
+	transition: .5s;
+}
+
+.carousel{
+	width: 100%;
+	height: 80vh;
+	display: flex;
+}
+
+
+.box{
+	width: 50%;
+}
+
+.box-33{
+	width: 33.333%;
+}
+
+.box-25{
+	width: 30%;
+}
+
+.carousel .box h2{
+	font-size: 50px;
+	margin-top: 150px;
+	margin-left: 40px;
+	color: #5d4e4d;
+}
+
+.carousel .box img{
+	float: right;
+}
+
+#about{
+	display: flex;
+	padding: 100px 40px;
+}
+
+#about .box{
+	display: flex;
+	justify-content: center;
+}
+
+#about .box-info{
+	display: block !important;
+}
+
+#about h3{
+	font-size: 30px;
+	color: #5d4e4d;
+}
+
+#about h4{
+	font-size: 20px;
+	color: #5d4e4d;
+	padding: 30px 0px;
+}
+
+
+#about p{
+	color: #666666;
+	text-align: justify;
+	padding: 10px 0px; 
+}
+
+#about button{
+	margin-left: 0px !important;
+	margin-top: 30px;
+}
+
+
+#about img{
+	width: 250px;
+}
+
+
+/*section chef*/
+#chef{
+	display: flex;
+	padding: 100px 40px;
+	background-image: linear-gradient(rgba(93, 78, 77, 0.7), rgba(93, 78, 77, 0.1)), url("../img/bg.png");
+	background-color: #000; /* Used if the image is unavailable */
+	min-height: 500px; /* You must set a specified height */
+	background-position: center; /* Center the image */
+	background-repeat: no-repeat; /* Do not repeat the image */
+	background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+#chef .box-33{
+	margin: 0px 70px;
+	background-color: #fff;
+	text-align: center;
+}
+
+#chef h3{
+	padding-top: 20px;
+}
+
+#chef h4{
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+/*The section chef*/
+
+
+
+/*section reserve*/
+#reserve{
+	display: flex;
+	padding: 150px 40px;
+}
+
+#reserve h3{
+	margin-bottom: 50px;
+	font-size: 30px;
+	color: #5d4e4d;
+}
+
+#reserve p{
+	text-align: justify;
+	margin-bottom: 10px;
+}
+
+
+#reserve button{
+	margin-left: 0px;
+}
+
+#reserve input, select{
+	display: block;
+	width: 100%;
+	padding: 10px 15px;
+	margin-top: 10px;
+	font-size: 18px;
+}
+
+#reserve .box-info{
+	padding-left: 30px;
+}
+
+#reserve .box-info button{
+	width: 100%;
+}
+
+/*The section reserve*/
+
+
+
+
+
+
+
+/*page pizza*/
+
+.header{
+	width: 100%;
+	min-height: 300px;
+	display: flex;
+	justify-content: center;
+	align-items:center;
+}
+
+.header h2{
+	padding: 0px 200px;
+	color: #5d4e4d;
+	font-size: 40px;
+	text-align: center;
+}
+
+#pizzas{
+	width: 100%;
+	min-height: 600px;
+	background: url("../img/table-book.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	display: flex;
+	justify-content: space-between;
+	padding: 100px 40px;
+	flex-wrap: wrap;
+}
+
+
+#pizzas .box-25{
+	background-color: white;
+	margin: 1% !important;
+	box-shadow: 0 0 25px -20px black;
+	padding: 20px;
+}
+
+#pizzas .box-25 img{
+	width: 100%;
+	padding: 20px;
+}
+
+#pizzas .box-25 img:hover{
+	transform: scale(1.1);
+}
+
+#pizzas .box-25 h3{
+	padding: 5px 15px;
+	text-align: center;
+}
+
+#pizzas .box-25 p{
+	padding: 5px 15px 30px 15px;
+	text-align: justify;
+	font-size: 12px;
+	color: #999
+}
+
+#pizzas .box-25 button{
+	margin-left: 0px;
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+/*The page pizza*/
+
+
+
+#localizacao{
+	width: 100%;
+	min-height: 600px;
+	display: flex;
+	justify-content: space-between;
+	padding: 100px 40px;
+	align-items: center;
+}
+
+#localizacao p{
+	font-size: 30px;
+	padding: 10px 0px;
+}
+
+
+
+
+#contato{
+	width: 100%;
+	min-height: 600px;
+	display: flex;
+	justify-content: center;
+	padding: 100px 80px;
+	align-items: center;
+}
+
+
+#contato input, textarea{
+	display: block;
+	width: 700px;
+	padding: 10px 15px;
+	margin-top: 10px;
+	font-size: 18px;
+}
+
+#contato button{
+	margin-left: 0px;
+	width: 700px;
+}
+
+
+/*section footer*/
+#footer{
+	display: flex;
+	padding: 60px 40px;
+	background-image: linear-gradient(180deg, #5d4e4d, black);
+}
+
+#footer img{
+	width: 150px;
+}
+
+#footer p{
+	color:white;
+	margin-top: 10px;
+}
+
+#footer h3{
+	color:white;
+	text-align: center;
+}
+
+#footer .atendimento ul{
+	margin-top: 30px;
+}
+
+#footer .atendimento ul li{
+	color: white;
+	text-align: center;
+	padding: 5px 0px;
+}
+
+#footer .acesso h3{
+	color:white;
+	text-align: right;
+}
+
+
+#footer .acesso ul{
+	margin-top: 30px;
+}
+
+#footer .acesso ul li{
+	color: white;
+	text-align: right;
+	padding: 5px 0px;
+}
+
+/*The section footer*/
+
+
+
+footer{
+	width: 100%;
+	padding: 30px 0px;
+	text-align: center;
+	background-color: black;
+	border-top: 1px solid #202529;
+}
+
+footer p{
+	text-align: center;
+	color: white;
+}
